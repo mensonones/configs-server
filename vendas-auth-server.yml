@@ -25,11 +25,11 @@ security:
 
 spring:
     datasource:
-        data: classpath:/sql/data.sql
+        data: /sql/data.sql
         driver-class-name: com.mysql.cj.jdbc.Driver
         password: 'feva@1991es'
         platform: mysql
-        schema: classpath:/sql/schema.sql
+        schema: /sql/schema.sql
         url: jdbc:mysql://localhost/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: admin
     jpa:
