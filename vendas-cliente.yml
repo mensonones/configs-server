@@ -20,9 +20,9 @@ spring:
         url: jdbc:mysql://localhost/clientes?verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: admin
     jpa:
-        database-platform: org.hibernate.dialect.MySQLDialect
+        database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
         generate-ddl: false
         hibernate:
-            ddl-auto: create
+            ddl-auto: update
         show-sql: true
 
