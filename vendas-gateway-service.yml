@@ -17,5 +17,5 @@ zuul:
   routes:
     cliente:
       path: /services/cliente/**
-      url: http://localhost:9092/api/v1/cliente
+      url: http://localhost:9092/api/v1/cliente/all
   
