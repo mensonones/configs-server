@@ -16,6 +16,6 @@ eureka:
 zuul:
   routes:
     cliente:
-      path: /services/cliente/**
+      path: /services/cliente/all
       url: http://localhost:9092/api/v1/cliente/all
   
