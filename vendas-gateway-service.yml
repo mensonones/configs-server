@@ -18,4 +18,9 @@ zuul:
     cliente:
       path: /cliente/**
       url: http://localhost:9092/api/v1/cliente/all
+
+
+    produto:
+      path: /produto/**
+      url: http://localhost:9094/api/v1/produto/all
   
